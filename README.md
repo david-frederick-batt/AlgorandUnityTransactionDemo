@@ -5,6 +5,11 @@
  - **[Algorand Sandbox](https://github.com/algorand/sandbox) must be installed and running**.
  - **Unity version `2021.3` or higher must be installed**.
 
- ## Using the Dotnet Algorand SDK in Unity
- In order to use the [Dotnet Algorand SDK](https://github.com/FrankSzendzielarz/dotnet-algorand-sdk) in Unity we can add it to the designated project in the form of a precompiled assembly (`.dll`) along with all of it's dependecies. This can be done in a couple of ways:
+ # Using the Dotnet Algorand SDK in Unity
+ 1. Download the following NuGet packages: [Algorand2_Unity](https://www.nuget.org/packages/Algorand2_Unity/1.0.0.10#readme-body-tab), [BouncyCastle.NetCore](https://www.nuget.org/packages/Algorand2_Unity/1.0.0.10#readme-body-tab), and [RestSharp](https://www.nuget.org/packages/RestSharp/)
+ 2. For each package, replace the `.nupkg` file extension with `.zip`.
+ 3. Extract the contents of all the packages.
+ 4. Locate and copy the `.dll` file in the following directory of every package: `<package-root>\lib\netstandard2.0`.
+ 5. Move over the `.dll` files into your Unity project.
 
+You should now be able to use the SDK in your Unity project. 
