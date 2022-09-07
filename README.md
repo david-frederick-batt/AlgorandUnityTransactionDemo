@@ -6,5 +6,5 @@
  - **Unity version `2021.3` or higher must be installed**.
 
  ## Using the Dotnet Algorand SDK in Unity
- In order to use the SDK in unity we can add it into the designated project in the form of a precompiled assembly (`.dll`) along with all of it's dependecies. This can be done in a couple of ways:
+ In order to use the [Dotnet Algorand SDK](https://github.com/FrankSzendzielarz/dotnet-algorand-sdk) in Unity we can add it to the designated project in the form of a precompiled assembly (`.dll`) along with all of it's dependecies. This can be done in a couple of ways:
 
