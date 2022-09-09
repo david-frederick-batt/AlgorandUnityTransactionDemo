@@ -11,12 +11,13 @@
 ```powershell
 Install-Package Algorand2_Unity
 ```
-3. Next, execute the following in the developer command prompt:
+3. Build the solution
+4. Execute the following in the developer command prompt:
 ```
 dotnet publish
 ```
-4. Locate `Algorand.dll`, `BouncyCastle.Crypto.dll`, and `RestSharp.dll` in `<project-root>\bin\Debug\netstandard2.0\publish`
-5. Move the assemblies over into your Unity project.
+5. Locate `Algorand.dll`, `BouncyCastle.Crypto.dll`, and `RestSharp.dll` in `<project-root>\bin\Debug\netstandard2.0\publish`
+6. Move the assemblies over into your Unity project.
 
 
 You should now be able to use the SDK in your Unity project. 
